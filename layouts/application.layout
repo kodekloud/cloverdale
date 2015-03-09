@@ -116,6 +116,9 @@
         color:white !important;
     }
     
+    .site_description {
+        color:black;
+    }
     .btn-primary:hover{
         background: #1b5b29 !important;
         border-color:#1b5b29 !important;
