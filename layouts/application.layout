@@ -107,7 +107,7 @@
     }
     
     .main_window{
-        border:40px solid #54774f;
+        border:40px solid #b8c2b2;
     }
     .btn-primary{
         background: #1b5b29 !important;
