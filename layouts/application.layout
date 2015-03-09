@@ -114,6 +114,7 @@
         border-color:#1b5b29 !important;
         text-align:center;
         color:white !important;
+        
     }
     
     .site_description {
@@ -123,6 +124,7 @@
         background: #1b5b29 !important;
         border-color:#1b5b29 !important;
         text-align:center;
+        color:white !important;
     }
     
     /*menu colors*/
