@@ -393,7 +393,7 @@ background-color: #FFFFFF ;
                     if(isMobile) {
                             startingMapTransform = 'scale(.35)';
                             startingPanX = -170;
-                            startingPanY = -250;
+                            startingPanY = -150;
                     }
                     $('#loading').hide();
                     $( "#page_content" ).fadeIn( "fast", function() {
