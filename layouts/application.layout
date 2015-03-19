@@ -89,13 +89,13 @@
     
     /*hyperlinks*/
     a{
-        color:#1b5b29;
+        color:#135a1e;
         text-decoration:inherit;
     }
     
     /*hyperlink hover color*/
     a:hover{
-        color: #1b5b29 !important;
+        color: #135a1e !important;
     }
     
     body{
@@ -103,15 +103,15 @@
     }
     
     header{
-        background:#1b5b29;
+        background:#135a1e;
     }
     
     .main_window{
-        border:40px solid #b8c2b2;
+        border:40px solid #c4d6c7;
     }
     .btn-primary{
-        background: #1b5b29 !important;
-        border-color:#1b5b29 !important;
+        background: #135a1e !important;
+        border-color:#004f09 !important;
         text-align:center;
         color:white !important;
         
@@ -121,8 +121,8 @@
         color:black;
     }
     .btn-primary:hover{
-        background: #1b5b29 !important;
-        border-color:#1b5b29 !important;
+    background: #135a1e !important;
+        border-color:#004f09 !important;
         text-align:center;
         color:white !important;
     }
@@ -133,7 +133,7 @@
     }
     
     .navbar .nav li a:hover,.navbar .nav li a:active{
-        color:#aacdb2;
+        color:#dce6dd;
     }
     
     .site_welcome_msg{
@@ -148,7 +148,7 @@
     }
     /*social media box color*/
     #social_media_wrapper{
-        background:#1b5b29;
+        background:#135a1e;
     }
     /*social media icon inner color*/
     #social_media_wrapper a{
@@ -162,15 +162,15 @@
     }
     .map-mouse-over{
     /*set color of store highlight and hover over for SVG map*/
-    fill: #b8c2b2;
+    fill: #c4d6c7;
     }
     /*inside page banners*/
     .page_banner{
-        background: #54774f;
+        background: #4e8356;
     }
     
     #description_section{
-        background:#54774f;
+        background:#4e8356;
     }
     
     .section_header{}
@@ -180,23 +180,23 @@
     }
     
    .view_button {
-        background:#1b5b29 !important;
+        background:#135a1e !important;
     }
     .right_column_header {
-        color: #1b5b29 ;
+        color: #135a1e ;
     }
     
     .navbar .nav li a:hover {
-        color:#aacdb2 !important;
+        color:#dce6dd !important;
     
     }
      .site-map-section a:hover {
-         color:#aacdb2 !important;
+         color:#dce6dd !important;
      }
     @media (max-width: 767px) {
         .main_window{
             width:100%;
-            border:15px solid #b8c2b2 !important;
+            border:15px solid #c4d6c7 !important;
             border-top:none !important;
         }  
     }
