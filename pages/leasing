@@ -44,20 +44,20 @@
                             <tr>
                                 <td style="width:215px"><strong>Demographics:</strong></td>
                                 <td style="width:100px">1km</td>
-                                <td style="width:215px">3km</td>
-                                 <td style="width:215px">5km</td>
+                                <td style="width:100px">3km</td>
+                                 <td style="width:100px">5km</td>
                             </tr>
                             <tr>
                                 <td style="width:215px"><strong>Total Population:</strong></td>
                                 <td style="width:100px">7,446</td>
-                                <td style="width:215px">85,222</td>
-                                <td style="width:215px">228,234</td>
+                                <td style="width:100px">85,222</td>
+                                <td style="width:100px">228,234</td>
                             </tr>
                             <tr>
                                 <td style="width:215px"><strong>Total Households:</strong></td>
                                 <td style="width:100px">2,822</td>
-                                <td style="width:215px">34,140</td>
-                                <td style="width:215px">89,518</td>
+                                <td style="width:100px">34,140</td>
+                                <td style="width:100px">89,518</td>
                             </tr>
                             <tr>
                                 <td style="width:215px"><strong>Household Average Income:</strong></td>
