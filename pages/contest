@@ -48,10 +48,10 @@
         Enter for your chance to win 1 of 5 $50 Gift Cards!
     </div>
     <div class="inside_page_content">
-        <img class="contest_image" src="http://kodekloud.s3.amazonaws.com/sites/54fdf5af6e6f6411f1000000/ce2c9e2b4ec6ccc4db6a04c8d35ba58c/36905_CM_Coffee Gift Card_Web Contest Image_858x500.png" />
+        <img class="contest_image" src="http://kodekloud.s3.amazonaws.com/sites/54fdf5af6e6f6411f1000000/89fa935d2ffb36920fa49eeb1699bb0a/37009_CM_Mother's-Day_Web-Contest-Image_858x500.jpg" />
      <br>
      <div class="contest_form_div">
-           <p class="contest_description">Complete the form below for your chance to WIN!  Contest closes April 30th, 2015.  Winner will be contacted via e-mail.</p>
+           <p class="contest_description">Complete the form below for your chance to WIN!  </p>
 
          <form action="http://mobilefringe.createsend.com/t/d/s/ilktkr/" method="post" id="contest_form">
             <p style="display:none">
@@ -117,7 +117,7 @@
             <br>
             <span>
                 <label for="agree_terms" style="display:none">Agree Terms</label>
-              <input type="checkbox" class="info_check" id="agree_terms" required/>&nbsp;I agree to the <a href = "/rules_regulations"><u>Rules and Regulations</u></a>. 
+              <input type="checkbox" class="info_check" id="agree_terms" required/>&nbsp;I agree to the <a href = "http://www.cloverdalemall.com/pages/cloverdale-mother-s-day-2015-contest-rules-and-regulations"><u>Rules and Regulations</u></a>. 
             </span>
             <br>
             <br>
