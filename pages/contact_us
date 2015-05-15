@@ -12,7 +12,7 @@
     <div class="inside_page_content">
         <div class="left_column">
             <img class="inside_banner_image" alt="banner" src="http://kodekloud.s3.amazonaws.com/sites/54fdf5af6e6f6411f1000000/deedb501b5a0c3381d91ea4bffd9b098/2014 Winners Elevation (2).jpg"/>
-            <img class="inside_banner_image" alt="banner" src="http://kodekloud.s3.amazonaws.com/sites/54d4e9206e6f64691f000000/1f4fed1d858c9ddcaf0105aacf32e785/store_list_banner.jpg"/>
+            
             <div class="show_mobile">
                 <p class="right_column_header">centre information</p>
                 <div id="centre_info_container_mobile">
