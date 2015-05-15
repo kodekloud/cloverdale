@@ -12,6 +12,46 @@
     <div class="inside_page_content">
         <div class="left_column">
             <img class="inside_banner_image" alt="banner" src="http://kodekloud.s3.amazonaws.com/sites/54fdf5af6e6f6411f1000000/deedb501b5a0c3381d91ea4bffd9b098/2014 Winners Elevation (2).jpg"/>
+            <img class="inside_banner_image" alt="banner" src="http://kodekloud.s3.amazonaws.com/sites/54d4e9206e6f64691f000000/1f4fed1d858c9ddcaf0105aacf32e785/store_list_banner.jpg"/>
+            <div class="show_mobile">
+                <p class="right_column_header">centre information</p>
+                <div id="centre_info_container_mobile">
+                    <script id="centre_info_template_mobile" type="x-tmpl-mustache/text">
+                        <p class="directory_content">{{name}}</p>
+                        <p class="directory_content">{{address1}}</p>
+                        <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
+                         <br>
+                    <p class="directory_content"><strong>Lisa Peatt </strong> 
+                    <br>General Manager
+                    <br>416.236.1669 ext. 224 
+                    <br><a href="mailto:lpeatt@bentallkennedy.com">lpeatt@bentallkennedy.com</a></p>
+                    <br>
+                   <p class="directory_content"><strong>Frank Kuray</strong> 
+                   <br>Operations Manager
+                   <br>416.236.1669 ext. 229 
+                   <br><a href="mailto:fkuray@bentallkennedy.com" target="_blank">fkuray@bentallkennedy.com</a></p>
+                   <br>
+                   
+                   <p class="directory_content"><strong>Jennifer Bolton</strong> 
+                   <br>Marketing Director
+                   <br>416.236.1669 ext. 223 
+                   <br><a href="mailto:jbolton@bentallkennedy.com">jbolton@bentallkennedy.com</a></p>
+                    <br>
+                   <p class="directory_content"><strong>Michelle Sookoo</strong> 
+                   <br>Accounts Coordinator
+                   <br>416.236.1669 ext. 226 
+                   <br> <a href="mailto:msookoo@bentallkennedy.com">msookoo@bentallkennedy.com</a></p>
+                    <br>
+                   <p class="directory_content"><strong>Robin Fancy</strong> 
+                   <br>Administrative Assistant
+                   <br>416.236.1669 ext. 227
+                   <br> <a href="mailto:rfancy@bentallkennedy.com">rfancy@bentallkennedy.com</a></p>
+                   <br>
+                   <p class="directory_content"><strong>Security</strong> 
+                   <br>416.236.1669 ext. 231
+                    </script>
+                </div>
+            </div>
             <div id="send_contact_success" class="alert alert-success" role="alert" style="display:none">
               <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
               <span class="sr-only">Success</span>
@@ -25,6 +65,9 @@
              </div>
             <form name="contact_form" id="contact_form" method="post">
                 <div class="row" style="margin-left:-15px;margin-right:-15px">
+                 <div class="col-sm-12 col-md-12">
+                        <h5>We value your feedback. Send us your comments or questions by completing the contact form below.</h5>
+                    </div>
                     <div class="col-sm-6 col-md-6">
                         <label for="name">Name</label>
                         <input name="name" id="name" class="form-control" type="text" value="" required>
@@ -155,6 +198,7 @@
         function renderAll (){
             var propertyDetails = getPropertyDetails();
             renderPageData('#centre_info_container','#centre_info_template',propertyDetails, 'property_details')
+            renderPageData('#centre_info_container_mobile','#centre_info_template_mobile',propertyDetails, 'property_details')
             $("#loading_screen").hide();
             $("#main_content").show();
         }
