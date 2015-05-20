@@ -544,10 +544,18 @@
                 value: agreeText,
                 name: 'cm-f-jdkjc'
             }).appendTo('#subForm');
+            
+            $('<input>').attr({
+                type: 'hidden',
+                id: 'fieldjdkjc',
+                value: agreeText,
+                name: 'cm-f-jdkjc'
+            }).appendTo('#subForm');
             /* Source and Confirmation Message End*/
             
             
         }
+
         function renderPropertyLogo(logo_template,site_logo,propertyDetails){
             var item_list = [];
             var item_rendered = [];
