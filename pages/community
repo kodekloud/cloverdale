@@ -161,7 +161,7 @@
                 <div class="col-sm-6 col-md-6 padding-side-none">
                     <div class="col-sm-12 col-md-12 padding-side-none">
                        <div class="col-sm-4 col-md-4 padding-left-none">
-                            <label style="font-size:13px;" for="kiosk">Is kiosk required?</label>
+                            <label style="font-size:13px; margin-bottom:6px;" for="kiosk">Is kiosk required?</label>
                             <select class="form-control" id="kiosk" name="kiosk" >
                                 <option value="0" selected="selected" disabled>Yes / No</option>
                                 <option value="1">Yes</option>
@@ -170,12 +170,12 @@
                         </div>
 
                         <div class="col-sm-4 col-md-4 padding-right-none">
-                            <label  style="font-size:13px;" for="kioskNumber">How many kiosk?</label>
+                            <label  style="font-size:13px; margin-bottom:6px;" for="kioskNumber">How many kiosk?</label>
                             <input name="kioskNumber" id="kioskNumber" class="form-control" type="text" />
                         </div>
                         
                        <div class="col-sm-4 col-md-4 padding-right-none">
-                            <label style="font-size:13px;" for="staging">Is staging required?</label>
+                            <label style="font-size:13px; margin-bottom:6px;" for="staging">Is staging required?</label>
                             <select class="form-control" id="staging" name="staging" >
                                 <option value="0" selected="selected" disabled>Yes / No</option>
                                 <option value="1">Yes</option>
