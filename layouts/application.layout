@@ -558,7 +558,7 @@
             /* Source and Confirmation Message End*/
             
             var myDate = new Date();
-            var displayDate = (myDate.getMonth()+1) + '/' + (myDate.getDate()) + '/' + myDate.getFullYear();
+            var displayDate = (myDate.getMonth()+1) + '/' + (myDate.getDate()) + '/' + myDate.getFullYear()+ ' ';
             var time = myDate.getHours() + ":" + myDate.getMinutes() + ":" + myDate.getSeconds();
         }
 
