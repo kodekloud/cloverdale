@@ -101,16 +101,16 @@
         } 
         $('<input>').attr({
             type: 'hidden',
-            id: 'fieldjdhdiu',
+            id: 'fieldjdkjm',
             value: page,
-            name: 'cm-f-jdhdiu'
+            name: 'cm-f-jdkjm'
         }).appendTo('#subForm');
             
         $('<input>').attr({
             type: 'hidden',
-            id: 'fieldjdhddy',
+            id: 'fieldjdkjc',
             value: agreeText,
-            name: 'cm-f-jdhddy'
+            name: 'cm-f-jdkjc'
         }).appendTo('#subForm');
         /* Source and Confirmation Message End*/
 </script>
