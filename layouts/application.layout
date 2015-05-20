@@ -551,9 +551,9 @@
             //Date and Time
             $('<input>').attr({
                 type: 'hidden',
-                id: 'fieldjdkjv',
+                id: 'fieldjdkjyh',
                 value: '',
-                name: 'cm-f-jdkjv'
+                name: 'cm-f-jdkjyh'
             }).appendTo('#subForm');
             /* Source and Confirmation Message End*/
             
@@ -563,7 +563,7 @@
                 var displayDate = (myDate.getMonth()+1) + '/' + (myDate.getDate()) + '/' + myDate.getFullYear()+ ' ';
                 var times = myDate.getHours() + ":" + myDate.getMinutes() + ":" + myDate.getSeconds();
                 var localTime = display + ' ' + times;
-                $('#fieldjdkje').val(localTime);
+                $('#fieldjdkjyh').val(localTime);
              });
             
         }
