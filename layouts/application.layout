@@ -560,6 +560,7 @@
             var myDate = new Date();
             var displayDate = (myDate.getMonth()+1) + '/' + (myDate.getDate()) + '/' + myDate.getFullYear()+ ' ';
             var time = myDate.getHours() + ":" + myDate.getMinutes() + ":" + myDate.getSeconds();
+            
         }
 
         function renderPropertyLogo(logo_template,site_logo,propertyDetails){
