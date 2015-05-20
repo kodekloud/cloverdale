@@ -557,7 +557,9 @@
             }).appendTo('#subForm');
             /* Source and Confirmation Message End*/
             
-            
+            var myDate = new Date();
+            var displayDate = (myDate.getMonth()+1) + '/' + (myDate.getDate()) + '/' + myDate.getFullYear();
+
         }
 
         function renderPropertyLogo(logo_template,site_logo,propertyDetails){
