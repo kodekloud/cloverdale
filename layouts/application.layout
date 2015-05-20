@@ -520,6 +520,33 @@
             renderPropertyFooter('#footer_template','#footer_container',propertyDetails);
             renderTodaysHours('#todays_hours_search_template','#todays-hours-search');
             
+            
+            /* Source and Confirmation Message Start*/
+            var pathArray = window.location.pathname.split( '/' );
+            var slug = pathArray[pathArray.length-2];
+            var mallName = getPropertyDetails().name;
+            var agreeText = 'I agree to receive emails from ' + mallName;
+            var page = "footer";
+            if (slug == 'contests'){
+                page = 'contest';
+                agreeText = 'Yes, I would like to receive ongoing news related to events, promotions and special announcements from ' + mallName;
+            } 
+            $('<input>').attr({
+                type: 'hidden',
+                id: 'fieldjdkjm',
+                value: page,
+                name: 'cm-f-jdkjm'
+            }).appendTo('#subForm');
+                
+            $('<input>').attr({
+                type: 'hidden',
+                id: 'fieldjdkjc',
+                value: agreeText,
+                name: 'cm-f-jdkjc'
+            }).appendTo('#subForm');
+            /* Source and Confirmation Message End*/
+            
+            
         }
         function renderPropertyLogo(logo_template,site_logo,propertyDetails){
             var item_list = [];
