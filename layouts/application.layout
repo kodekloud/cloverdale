@@ -532,7 +532,7 @@
                 agreeText = 'Yes, I would like to receive ongoing news related to events, promotions and special announcements from ' + mallName;
             }
             
-            //source
+            //Source
             $('<input>').attr({
                 type: 'hidden',
                 id: 'fieldjdkjm',
