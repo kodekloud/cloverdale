@@ -389,13 +389,10 @@
     	        lottery = 'N/A';
     	    }
     	    
-    	    if($('#tableNumber').val().length === 0){
-    	        table = '0';
+    	    if($('#kioskNumber').val().length === 0){
+    	        kiosk = '0';
     	    }
-    	    
-    	    if($('#chairNumber').val().length === 0){
-    	        chair = '0';
-    	    }
+
     	    
     	    
 	        $.ajax({
@@ -421,12 +418,9 @@
                         "From Date(mm/dd/yyyy)":  $('#fromDate').val(),
                         "To Date(mm/dd/yyyy)":  $('#toDate').val(),
                         "Purpose for use of in-mall space":  $('#purpose').val(),
-                        "Is hydro required?":  $('#hydro option:selected').text(),
-                        "Are tables required?":  $('#table option:selected').text(),
-                        "How many tables?":  table,
+                        "Is kiosk required?":  $('#kiosk option:selected').text(),
+                        "How many kiosk?":  kiosk,
                         "Is staging required?":  $('#staging option:selected').text(),
-                        "Are chairs required?":  $('#chair option:selected').text(),
-                        "How many chairs?":  chair,
                         "Please specify any other requirements":  $('#anyother').val(),
                         "Anticipated Attendance":  $('#attendance').val()
                     } 
