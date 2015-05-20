@@ -374,8 +374,7 @@
     	    var operatingName = $('#operatingName').val();
     	    var fax =  $('#fax').val();
     	    var lottery = $('#lottery').val();
-    	    var table =  $('#tableNumber').val();
-    	    var chair =  $('#chairNumber').val();
+    	    var kiosk =  $('#kioskNumber').val();
     	    
     	    if($('#operatingName').val().length === 0){
     	        operatingName = 'N/A';
