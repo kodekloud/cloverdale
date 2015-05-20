@@ -173,8 +173,7 @@
                             <label for="kioskNumber">How many kiosk?</label>
                             <input name="kioskNumber" id="kioskNumber" class="form-control" type="text" />
                         </div>
-                    </div>
-                    <div class="col-sm-12 col-md-12 padding-side-none">
+                        
                        <div class="col-sm-4 col-md-4 padding-left-none">
                             <label style="font-size:13px;" for="staging">Is staging required?</label>
                             <select class="form-control" id="staging" name="staging" >
@@ -183,8 +182,8 @@
                                 <option value="2">No</option>
                             </select>   
                         </div>
-                      
                     </div>
+   
                 </div>
                 <div class="col-sm-12 col-md-12 padding-side-none">
                    <div class="col-sm-6 col-md-6 padding-left-none">
