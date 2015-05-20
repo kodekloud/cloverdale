@@ -84,7 +84,30 @@
             },// Message below close window link  
             imagePath: '//cdn.jsdelivr.net/jquery.jreject/1.0.2/images/'
         });   
-        
+         /* Source and Confirmation Message Start*/
+        var pathArray = window.location.pathname.split( '/' );
+        var slug = pathArray[pathArray.length-2];
+        var mallName = getPropertyDetails().name;
+        var agreeText = 'I agree to receive emails from ' + mallName;
+        var page = "footer";
+        if (slug == 'contests'){
+            page = 'contest';
+            agreeText = 'Yes, I would like to receive ongoing news related to events, promotions and special announcements from ' + mallName;
+        } 
+        $('<input>').attr({
+            type: 'hidden',
+            id: 'fieldjdhdiu',
+            value: page,
+            name: 'cm-f-jdhdiu'
+        }).appendTo('#subForm');
+            
+        $('<input>').attr({
+            type: 'hidden',
+            id: 'fieldjdhddy',
+            value: agreeText,
+            name: 'cm-f-jdhddy'
+        }).appendTo('#subForm');
+        /* Source and Confirmation Message End*/
     });
     setEndPoint('http://cloverdale.mallmaverick.com/api/v2/cloverdale/all.json');
     sessionStorage.setItem('primary_locale', 'en-CA');
