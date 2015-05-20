@@ -554,9 +554,6 @@
                 value: '',
                 name: 'cm-f-jdkjyh'
             }).appendTo('#subForm');
-            /* Source and Confirmation Message End*/
-           
-
             //Add date and time when Footer newsletter form submitted
              $('#subForm').submit(function (e) {
                 var myDate = new Date();
@@ -565,6 +562,11 @@
                 var localTime = displayDate + ' ' + times;
                 $('#fieldjdkjyh').val(localTime);
              });
+            
+            /* Source and Confirmation Message End*/
+           
+
+            
         }
 
         function renderPropertyLogo(logo_template,site_logo,propertyDetails){
