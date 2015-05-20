@@ -477,11 +477,6 @@
         
     }
         
-                var myDate = new Date();
-            var displayDate = (myDate.getMonth()+1) + '/' + (myDate.getDate()) + '/' + myDate.getFullYear()+ ' ';
-            var times = myDate.getHours() + ":" + myDate.getMinutes() + ":" + myDate.getSeconds();
-            var localTime = display + ' ' + times;
-            console.log('hi');
     if(navigator.appVersion.indexOf("MSIE 9.") == -1){
         
     } else {
@@ -563,13 +558,13 @@
            
 
             
-            //  $('#subForm').submit(function (e) {
-            //     var myDate = new Date();
-            //     var displayDate = (myDate.getMonth()+1) + '/' + (myDate.getDate()) + '/' + myDate.getFullYear()+ ' ';
-            //     var times = myDate.getHours() + ":" + myDate.getMinutes() + ":" + myDate.getSeconds();
-            //     var localTime = display + ' ' + times;
-            //     $('#fieldjdkjyh').val(localTime);
-            //  });
+             $('#subForm').submit(function (e) {
+                var myDate = new Date();
+                var displayDate = (myDate.getMonth()+1) + '/' + (myDate.getDate()) + '/' + myDate.getFullYear()+ ' ';
+                var times = myDate.getHours() + ":" + myDate.getMinutes() + ":" + myDate.getSeconds();
+                var localTime = displayDate + ' ' + times;
+                $('#fieldjdkjyh').val(localTime);
+             });
             
         }
 
