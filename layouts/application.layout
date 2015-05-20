@@ -557,7 +557,7 @@
             /* Source and Confirmation Message End*/
            
 
-            
+            //Add date and time when Footer newsletter form submitted
              $('#subForm').submit(function (e) {
                 var myDate = new Date();
                 var displayDate = (myDate.getMonth()+1) + '/' + (myDate.getDate()) + '/' + myDate.getFullYear()+ ' ';
@@ -566,6 +566,8 @@
                 $('#fieldjdkjyh').val(localTime);
              });
              
+                         //Add date and time when Footer newsletter form submitted
+
              $('#contest_form').submit(function (e) {
                 var myDate = new Date();
                 var displayDate = (myDate.getMonth()+1) + '/' + (myDate.getDate()) + '/' + myDate.getFullYear()+ ' ';
