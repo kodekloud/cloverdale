@@ -565,6 +565,16 @@
                 var localTime = displayDate + ' ' + times;
                 $('#fieldjdkjyh').val(localTime);
              });
+             
+             $('#contest_form').submit(function (e) {
+                var myDate = new Date();
+                var displayDate = (myDate.getMonth()+1) + '/' + (myDate.getDate()) + '/' + myDate.getFullYear()+ ' ';
+                var times = myDate.getHours() + ":" + myDate.getMinutes() + ":" + myDate.getSeconds();
+                var localTime = displayDate + ' ' + times;
+                $('#fieldjdkjyh').val(localTime);
+             });
+             
+             
             
         }
 
