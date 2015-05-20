@@ -557,9 +557,14 @@
             }).appendTo('#subForm');
             /* Source and Confirmation Message End*/
             
-            var myDate = new Date();
-            var displayDate = (myDate.getMonth()+1) + '/' + (myDate.getDate()) + '/' + myDate.getFullYear()+ ' ';
-            var time = myDate.getHours() + ":" + myDate.getMinutes() + ":" + myDate.getSeconds();
+              
+             $('#subForm').submit(function (e) {
+                var myDate = new Date();
+                var displayDate = (myDate.getMonth()+1) + '/' + (myDate.getDate()) + '/' + myDate.getFullYear()+ ' ';
+                var times = myDate.getHours() + ":" + myDate.getMinutes() + ":" + myDate.getSeconds();
+                var localTime = display + ' ' + times;
+                $('#fieldjdkje').val(localTime);
+             });
             
         }
 
