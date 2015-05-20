@@ -157,6 +157,7 @@
                    $("#birthday").mask("9999/99/99");
                 });
                 $('#contest_form').submit(function (e) {
+                    
                     //Add date and time when Contest form submitted
                     var myDate = new Date();
                     var displayDate = (myDate.getMonth()+1) + '/' + (myDate.getDate()) + '/' + myDate.getFullYear()+ ' ';
