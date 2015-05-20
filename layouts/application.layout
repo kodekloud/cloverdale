@@ -530,7 +530,9 @@
             if (slug == 'contests'){
                 page = 'contest';
                 agreeText = 'Yes, I would like to receive ongoing news related to events, promotions and special announcements from ' + mallName;
-            } 
+            }
+            
+            //source
             $('<input>').attr({
                 type: 'hidden',
                 id: 'fieldjdkjm',
@@ -538,6 +540,7 @@
                 name: 'cm-f-jdkjm'
             }).appendTo('#subForm');
                 
+            //Confirmation Message
             $('<input>').attr({
                 type: 'hidden',
                 id: 'fieldjdkjc',
@@ -545,6 +548,7 @@
                 name: 'cm-f-jdkjc'
             }).appendTo('#subForm');
             
+            //Date and Time
             $('<input>').attr({
                 type: 'hidden',
                 id: 'fieldjdkjv',
