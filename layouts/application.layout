@@ -566,8 +566,7 @@
                 $('#fieldjdkjyh').val(localTime);
              });
              
-                         //Add date and time when Footer newsletter form submitted
-
+            //Add date and time when Contest form submitted
              $('#contest_form').submit(function (e) {
                 var myDate = new Date();
                 var displayDate = (myDate.getMonth()+1) + '/' + (myDate.getDate()) + '/' + myDate.getFullYear()+ ' ';
