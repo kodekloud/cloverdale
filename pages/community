@@ -161,23 +161,17 @@
                 <div class="col-sm-6 col-md-6 padding-side-none">
                     <div class="col-sm-12 col-md-12 padding-side-none">
                        <div class="col-sm-4 col-md-4 padding-left-none">
-                            <label for="hydro">Is hydro required?</label>
-                            <select class="form-control" id="hydro" name="hydro" >
+                            <label for="kiosk">Is kiosk required?</label>
+                            <select class="form-control" id="kiosk" name="kiosk" >
                                 <option value="0" selected="selected" disabled>Yes / No</option>
                                 <option value="1">Yes</option>
                                 <option value="2">No</option>
                             </select>
                         </div>
-                        <div class="col-sm-4 col-md-4  padding-side-none">
-                            <label for="table">Are tables required?</label>
-                            <select class="form-control" id="table" name="table" >
-                                <option value="0" selected="selected" disabled>Yes / No</option>
-                                <option value="1">Yes</option>
-                                <option value="2">No</option>
-                            </select>                        </div>
+
                         <div class="col-sm-4 col-md-4 padding-right-none">
-                            <label for="tableNumber">How many tables?</label>
-                            <input name="tableNumber" id="tableNumber" class="form-control" type="text" />
+                            <label for="kioskNumber">How many kiosk?</label>
+                            <input name="kioskNumber" id="kioskNumber" class="form-control" type="text" />
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-12 padding-side-none">
@@ -189,18 +183,7 @@
                                 <option value="2">No</option>
                             </select>   
                         </div>
-                        <div class="col-sm-4 col-md-4  padding-side-none">
-                            <label for="chair">Are chairs required?</label>
-                            <select class="form-control" id="chair" name="chair" >
-                                <option value="0" selected="selected" disabled>Yes / No</option>
-                                <option value="1">Yes</option>
-                                <option value="2">No</option>
-                            </select>   
-                        </div>
-                        <div class="col-sm-4 col-md-4 padding-right-none">
-                            <label for="chairNumber">How many chairs?</label>
-                            <input name="chairNumber" id="chairNumber" class="form-control" type="text" />
-                        </div>
+                      
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-12 padding-side-none">
