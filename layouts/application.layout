@@ -565,18 +565,6 @@
                 var localTime = displayDate + ' ' + times;
                 $('#fieldjdkjyh').val(localTime);
              });
-             
-            //Add date and time when Contest form submitted
-             $('#contest_form').submit(function (e) {
-                var myDate = new Date();
-                var displayDate = (myDate.getMonth()+1) + '/' + (myDate.getDate()) + '/' + myDate.getFullYear()+ ' ';
-                var times = myDate.getHours() + ":" + myDate.getMinutes() + ":" + myDate.getSeconds();
-                var localTime = displayDate + ' ' + times;
-                $('#fieldjdkjyh').val(localTime);
-             });
-             
-             
-            
         }
 
         function renderPropertyLogo(logo_template,site_logo,propertyDetails){
