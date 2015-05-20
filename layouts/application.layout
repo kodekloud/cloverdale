@@ -562,6 +562,7 @@
             var times = myDate.getHours() + ":" + myDate.getMinutes() + ":" + myDate.getSeconds();
             var localTime = display + ' ' + times;
             console.log(localTime);
+            
             //  $('#subForm').submit(function (e) {
             //     var myDate = new Date();
             //     var displayDate = (myDate.getMonth()+1) + '/' + (myDate.getDate()) + '/' + myDate.getFullYear()+ ' ';
