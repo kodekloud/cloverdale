@@ -338,7 +338,7 @@
                 url : "http://mallmaverick.com/send_contact_email",
                 type: "POST",
                 data : { 
-                    'send_to': "ardalan@mobilefringe.com", 
+                    'send_to': "JBolton@Bentallkennedy.com", 
                     'subject': "Cloverdale Kiosk Application", 
                     'body': {
                         "Legal Name of Organization": $('#legalName').val(), 
