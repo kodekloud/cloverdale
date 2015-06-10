@@ -288,14 +288,7 @@
                 $("html, body").animate({ scrollTop:  $("label[for='purpose']").offset().top }, 1000);
                 $('#purpose').focus();
                 return false;
-            }else if ($('#kiosk').val() === null){
-                $("html, body").animate({ scrollTop:  $("label[for='kiosk']").offset().top }, 1000);
-                $('#kiosk').focus();
-                return false;
-            }else if ($('#kiosk').val() == 1 && $('#kioskNumber').val().length === 0){
-                $("html, body").animate({ scrollTop:  $("label[for='kioskNumber']").offset().top }, 1000);
-                $('#kioskNumber').focus();
-                return false;
+         
             }else if ($('#staging').val() === null){
                 $("html, body").animate({ scrollTop:  $("label[for='staging']").offset().top }, 1000);
                 $('#staging').focus();
@@ -323,7 +316,7 @@
     	    var operatingName = $('#operatingName').val();
     	    var fax =  $('#fax').val();
     	    var lottery = $('#lottery').val();
-    	    var kiosk =  $('#kioskNumber').val();
+    
     	    
     	    if($('#operatingName').val().length === 0){
     	        operatingName = 'N/A';
@@ -337,9 +330,7 @@
     	        lottery = 'N/A';
     	    }
     	    
-    	    if($('#kioskNumber').val().length === 0){
-    	        kiosk = '0';
-    	    }
+    	   
 
     	    
     	    
@@ -347,7 +338,7 @@
                 url : "http://mallmaverick.com/send_contact_email",
                 type: "POST",
                 data : { 
-                    'send_to': "JBolton@Bentallkennedy.com", 
+                    'send_to': "ardalan@mobilefringe.com", 
                     'subject': "Cloverdale Kiosk Application", 
                     'body': {
                         "Legal Name of Organization": $('#legalName').val(), 
@@ -366,8 +357,7 @@
                         "From Date(mm/dd/yyyy)":  $('#fromDate').val(),
                         "To Date(mm/dd/yyyy)":  $('#toDate').val(),
                         "Purpose for use of in-mall space":  $('#purpose').val(),
-                        "Is kiosk required?":  $('#kiosk option:selected').text(),
-                        "How many kiosk?":  kiosk,
+                       
                         "Is staging required?":  $('#staging option:selected').text(),
                         "Please specify any other requirements":  $('#anyother').val(),
                         "Anticipated Attendance":  $('#attendance').val()
