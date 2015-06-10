@@ -168,7 +168,7 @@
                        <div class="col-sm-4 col-md-4 padding-left-none">
                             <label style="font-size:13px; margin-bottom:6px;" for="kiosk">Is kiosk required?</label>
                             <select class="form-control" id="kiosk" name="kiosk" >
-                                <option value="0" selected="selected" disabled>Yes / No</option>
+                                <option value="0" selected="selected" >N/A</option>
                                 <option value="1">Yes</option>
                                 <option value="2">No</option>
                             </select>
