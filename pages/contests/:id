@@ -102,8 +102,10 @@
                 <input id="postal_code" name="contest[postal_code]" type="text" required placeholder="Postal Code"/>
             </p>
             <p class="small_field">
-                <label for="birthday">Year of Birth*</label><br />
-                <input id="birthday" name="contest[birthday]" type="text" required placeholder= "yyyy"/>
+                <label for="temp_birthday">Year of Birth*</label><br />
+                <input id="temp_birthday" type="text" required placeholder= "yyyy"/>
+                
+                <input id="birthday" type="hidden" name="contest[birthday]"/>
             </p>
             <br>
             <br>
@@ -157,9 +159,9 @@
                 $("#loading_screen").hide();
                 $("#main_content").fadeIn( "fast");
                 randomgen();
-                // jQuery(function($){
-                //   $("#birthday").mask("9999");
-                // });
+                jQuery(function($){
+                   $("#temp_birthday").mask("9999");
+                });
                 $('#contest_form').submit(function (e) {
                     
                     //Add date and time when Contest form submitted
@@ -168,8 +170,8 @@
                     var times = myDate.getHours() + ":" + myDate.getMinutes() + ":" + myDate.getSeconds();
                     var localTime = displayDate + ' ' + times;
                     $('#fieldjdkjyh').val(localTime);
-                    var dob = $("#birthday").val()
-                    $("#birthday").attr(dob+"-1-1");  
+                    var dob = $("#temp_birthday").val()
+                    $("#birthday").val(dob+"/1/1");  
                     e.preventDefault();
                     if($('#enterVerify').val() == $('#verifyNumHidden').val() ) {
                         if ($("#agree_terms").prop("checked") == true){
