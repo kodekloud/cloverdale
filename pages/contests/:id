@@ -233,7 +233,7 @@
             $('input[name="cm-name"]').attr('value',name);
             $('input[name="cm-ilktkr-ilktkr"]').attr('value',email);
             var dob = $("#birthday").val()
-            $("#birthday").attr('value', dob+"/1/1");    
+            $("#birthday").attr('value', dob+"-1-1");    
             $.getJSON(
                 "http://mobilefringe.createsend.com/t/d/s/ilktkr/?callback=?",
               $("#cm_email").serialize(),
