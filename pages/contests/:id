@@ -157,9 +157,9 @@
                 $("#loading_screen").hide();
                 $("#main_content").fadeIn( "fast");
                 randomgen();
-                jQuery(function($){
-                   $("#birthday").mask("9999");
-                });
+                // jQuery(function($){
+                //   $("#birthday").mask("9999");
+                // });
                 $('#contest_form').submit(function (e) {
                     
                     //Add date and time when Contest form submitted
@@ -169,7 +169,7 @@
                     var localTime = displayDate + ' ' + times;
                     $('#fieldjdkjyh').val(localTime);
                     var dob = $("#birthday").val()
-                    $("#birthday").attr('value', dob+"-1-1");  
+                    $("#birthday").attr(dob+"-1-1");  
                     e.preventDefault();
                     if($('#enterVerify').val() == $('#verifyNumHidden').val() ) {
                         if ($("#agree_terms").prop("checked") == true){
