@@ -102,8 +102,8 @@
                 <input id="postal_code" name="contest[postal_code]" type="text" required placeholder="Postal Code"/>
             </p>
             <p class="small_field">
-                <label for="birthday">Date of Birth*</label><br />
-                <input id="birthday" name="contest[birthday]" type="text" required placeholder= "yyyy-mm-dd"/>
+                <label for="birthday">Year of Birth*</label><br />
+                <input id="birthday" name="contest[birthday]" type="text" required placeholder= "yyyy"/>
             </p>
             <br>
             <br>
