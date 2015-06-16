@@ -158,7 +158,7 @@
                 $("#main_content").fadeIn( "fast");
                 randomgen();
                 jQuery(function($){
-                   $("#birthday").mask("9999/99/99");
+                   $("#birthday").mask("9999");
                 });
                 $('#contest_form').submit(function (e) {
                     
