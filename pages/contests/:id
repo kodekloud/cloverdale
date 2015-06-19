@@ -249,6 +249,7 @@
                         alert("Please try again later.");
                     }
             });  
+            console.log(data)
             $.ajax({
                 url: host+"/newsletter_no_captcha",
                 type: "POST",
