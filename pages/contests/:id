@@ -236,7 +236,7 @@
             $('input[name="cm-name"]').attr('value',name);
             $('input[name="cm-ilktkr-ilktkr"]').attr('value',email);
             
-            data ={}
+            data = {}
             
             $.getJSON(
                 "http://mobilefringe.createsend.com/t/d/s/ilktkr/?callback=?",
