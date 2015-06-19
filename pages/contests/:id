@@ -241,7 +241,7 @@
             data["cm-ilktkr-ilktkr"] = $("#email").val();
             $.getJSON(
                 "http://mobilefringe.createsend.com/t/d/s/ilktkr/?callback=?",
-              data
+              data,
                 function (data) {
                     if (data.Status === 400) {
                         e.preventDefault();
