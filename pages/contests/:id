@@ -238,7 +238,7 @@
               
             $.getJSON(
                 "http://mobilefringe.createsend.com/t/d/s/ilktkr/?callback=?",
-              $("#cm_email").serialize(),
+              data
                 function (data) {
                     if (data.Status === 400) {
                         e.preventDefault();
