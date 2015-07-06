@@ -21,10 +21,10 @@
                         <p class="directory_content">{{address1}}</p>
                         <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
                          <br>
-                    <p class="directory_content"><strong>Lisa Peatt </strong> 
+                    <p class="directory_content"><strong>Anne Vit  </strong> 
                     <br>General Manager
                     <br>416.236.1669 ext. 224 
-                    <br><a href="mailto:lpeatt@bentallkennedy.com">lpeatt@bentallkennedy.com</a></p>
+                    <br><a href="mailto:avit@bentallkennedy.com">avit@bentallkennedy.com</a></p>
                     <br>
                    <p class="directory_content"><strong>Frank Kuray</strong> 
                    <br>Operations Manager
@@ -116,10 +116,10 @@
                     <p class="directory_content">{{address1}}</p>
                     <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
                      <br>
-                    <p class="directory_content"><strong>Lisa Peatt </strong> 
+                   <p class="directory_content"><strong>Anne Vit  </strong> 
                     <br>General Manager
                     <br>416.236.1669 ext. 224 
-                    <br><a href="mailto:lpeatt@bentallkennedy.com">lpeatt@bentallkennedy.com</a></p>
+                    <br><a href="mailto:avit@bentallkennedy.com">avit@bentallkennedy.com</a></p>
                     <br>
                    <p class="directory_content"><strong>Frank Kuray</strong> 
                    <br>Operations Manager
