@@ -723,5 +723,7 @@
 			return false;
 		});
 	});
-    
+     $('.dropdown').on('click', function() {
+        $(this).toggleClass("open");
+    });
 </script>
